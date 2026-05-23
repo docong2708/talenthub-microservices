@@ -8,7 +8,7 @@
         <version>1.0-SNAPSHOT</version>
         <relativePath>../../pom.xml</relativePath> <!-- lookup parent from repository -->
     </parent>
-    <artifactId>application</artifactId>
+    <artifactId>application-service</artifactId>
     <name>application-service</name>
     <description>application-service</description>
 
@@ -20,6 +20,10 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
 
         <dependency>

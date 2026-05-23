@@ -8,7 +8,7 @@
         <version>1.0-SNAPSHOT</version>
         <relativePath>../../pom.xml</relativePath> <!-- lookup parent from repository -->
     </parent>
-    <artifactId>cv-parser</artifactId>
+    <artifactId>cv-parser-service</artifactId>
     <name>cv-parser-service</name>
     <description>cv-parser-service</description>
     <dependencies>
@@ -19,6 +19,11 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.talenthub</groupId>
+            <artifactId>common-events</artifactId>
+            <version>${project.version}</version>
         </dependency>
 
         <dependency>
